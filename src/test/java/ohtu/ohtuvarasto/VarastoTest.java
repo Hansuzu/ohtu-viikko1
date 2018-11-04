@@ -110,6 +110,14 @@ public class VarastoTest {
         assertEquals(10, varasto.getSaldo(), vertailuTarkkuus);
     }
 
+    @Test
+    public void otaVarastostaToimiiKunOttaaKaikki() {
+        varasto.lisaaVarastoon(3);
+        assertEquals(3, varasto.otaVarastosta(10), vertailuTarkkuus);
+        assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
+    }
+
+
 
     @Test
     public void toStringToimii() {
