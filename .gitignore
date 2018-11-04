@@ -1,2 +1,13 @@
 *.tmp
 build/
+NhlStatistics1/build/
+bin/
+NhlStatistics1/bin/
+.gradle/
+NhlStatistics1/.gradle
+.project
+NhlStatistics1/.project
+.settings
+NhlStatistics1/.settings
+.classpath
+NhlStatistics1/.classpath
