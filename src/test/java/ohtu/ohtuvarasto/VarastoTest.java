@@ -101,7 +101,7 @@ public class VarastoTest {
     public void lisaaVarastoonEiTeeMuutoksiaNegatiivisella() {
         varasto.lisaaVarastoon(4);
         varasto.lisaaVarastoon(-3);
-        assertEquals(6, varasto.getSaldo(), vertailuTarkkuus);
+        assertEquals(4, varasto.getSaldo(), vertailuTarkkuus);
     }
 
     @Test
